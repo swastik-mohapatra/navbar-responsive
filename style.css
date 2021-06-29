@@ -1,0 +1,56 @@
+.vertical {
+            border-left: 2px solid white;
+            height: 50px;
+            
+        }
+
+.list-upper:hover{
+        opacity: 0.8;
+
+        }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+@media screen and (min-width:678px) {
+.navbar-edit{
+    margin-left:260px;
+}
+}
+@media screen and (max-width:678px) {
+        .small-sc{
+        position: relative;
+        margin-right: 3px;
+        display: flex;
+        text-align: center;
+        
+    }
+    .displaying{
+        display: none;
+    }
+    .fa-phone{
+      margin-right: 12px;
+      margin-top: 17px;
+      margin-left: 7px;
+      
+      
+    }
+    
+    .list-upper{
+       padding-bottom: 17px;
+    }
+    .navbar-edit{
+    text-align: center;
+}
+     
+}
+.badge:after{
+content:attr(value);
+font-size:12px;
+background: red;
+border-radius:50%;
+padding:3px;
+position:relative;
+left:-8px;
+top:-10px;
+opacity:0.9;
+}
