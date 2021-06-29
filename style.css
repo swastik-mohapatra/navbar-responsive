@@ -54,3 +54,39 @@ left:-8px;
 top:-10px;
 opacity:0.9;
 }
+.jumbotron{
+    background-image: url("https://thumbs.dreamstime.com/b/random-building-blue-sky-background-wallpaper-58664650.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color:transparent;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+  font-weight: bolder;
+}
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size:23px;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;  font-size: 28px;
+  transition: 0.8s;
+}
+iframe{
+    margin-top:-30px;
+    margin-bottom: 20px;
+}
